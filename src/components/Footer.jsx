@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react'
-import { FaArrowUp, FaFacebookF, FaInstagram, FaPinterestP, FaTumblr, FaTwitter } from 'react-icons/fa'
+import { FaArrowUp, FaFacebookF, FaGithub, FaInstagram, FaLinkedinIn, FaPinterestP, FaTumblr, FaTwitter } from 'react-icons/fa'
 
 const Footer = () => {
 
@@ -25,15 +25,19 @@ const Footer = () => {
       {/* Social Links */}
       <div className="flex flex-wrap justify-center gap-4 mb-6">
         {[
-          { name: "Facebook", icon: <FaFacebookF /> },
-          { name: "Twitter", icon: <FaTwitter /> },
-          { name: "Instagram", icon: <FaInstagram /> },
+          // { name: "Facebook", icon: <FaFacebookF /> },
+          // { name: "Twitter", icon: <FaTwitter /> },
+
+          { name: "LinkedIn", icon: <FaLinkedinIn/>, link: 'https://www.linkedin.com/in/aravindb06'},
+          { name: "Github", icon: <FaGithub/>, link: 'https://github.com/Aravindb0626?tab=repositories'},
+          { name: "Instagram", icon: <FaInstagram />, link: 'https://www.instagram.com/stainless_steelboy?igsh=NnkxZW54a2w5OWEw' },
+          
         //   { name: "Pinterest", icon: <FaPinterestP /> },
         //   { name: "Tumblr", icon: <FaTumblr /> },
         ].map((social, index) => (
           <a
             key={index}
-            href="#"
+            href={social.link}
             target='_blank'
             rel='noopener noreferrer'
             className="flex items-center gap-2 px-6 py-3 border border-gray-600 hover:border-yellow-400 hover:text-yellow-400 transition-all duration-300 uppercase font-semibold tracking-wide text-sm"
