@@ -1,14 +1,16 @@
 import React from 'react'
 import { FaRocket } from "react-icons/fa";
-import projectImg from '../assets/projects.jpeg'
+import project1Img from '../assets/projects.1.png'
+import project2Img from '../assets/projects.2.png'
+
 import {motion} from 'framer-motion'
 
 const Projects = () => {
 
     const projects = [
-        { img : projectImg, title : "Model Portfolio Template", category : "Website / e-Commerce" },
-        { img : projectImg, title : "Real Estate Mobile Application", category : "Mobile Application" },
-        { img : projectImg, title : "Model Portfolio Template", category : "Website / e-Commerce" },
+        { img : project1Img, title : "Model Portfolio Template", category : "Website / e-Commerce" },
+        { img : project2Img, title : "Real Estate Mobile Application", category : "Mobile Application" },
+        { img : project1Img, title : "Model Portfolio Template", category : "Website / e-Commerce" },
     ]
 
     const fadeInUp = {
