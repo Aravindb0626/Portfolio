@@ -10,9 +10,9 @@ import {motion} from 'framer-motion'
 const Projects = () => {
 
     const projects = [
-        { img : project1Img, title : "Model Portfolio Template", category : "Website / e-Commerce" },
-        { img : project2Img, title : "Real Estate Mobile Application", category : "Mobile Application" },
-        { img : project3Img, title : "Model Portfolio Template", category : "Website / e-Commerce" },
+        { img : project1Img, title : "Interior Website", category : "Website" },
+        { img : project2Img, title : "Real Estate Website ", category : "Website" },
+        { img : project3Img, title : "Franchise Web Application", category : "Website / e-Commerce" },
     ]
 
     const fadeInUp = {
@@ -36,7 +36,7 @@ const Projects = () => {
         <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold">
           My Work Experience
         </h2>
-        <p className="text-gray-400 mt-3 text-base sm:text-lg leading-relaxed">
+        <p className="text-gray-700 mt-3 text-base sm:text-lg leading-relaxed">
           I’ve worked on diverse projects across web development, building websites and web applications that are both functional and visually appealing. My focus is on delivering modern, efficient, and intuitive user experiences.
         </p>
       </motion.div>

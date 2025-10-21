@@ -65,7 +65,7 @@ export default function About() {
           whileInView={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.6, delay: 0.2 }}
           viewport={{ once: true }}
-          className="text-gray-500 mt-5 text-base leading-relaxed"
+          className="text-gray-700 mt-5 text-base leading-relaxed"
         >
           I specialize in building modern, responsive web applications using the MERN stack (MongoDB, Express, React, Node.js).
 My focus is on creating seamless user experiences, scalable backend systems, and clean, maintainable code that drives real business results..
